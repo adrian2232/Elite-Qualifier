@@ -1,4 +1,4 @@
-
+import requests
 from bs4 import BeautifulSoup
 URL = 'https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia'
 page = requests.get(URL)
@@ -15,3 +15,9 @@ print(title_elem)
 print(company_elem)
 print(location_elem)
 print()
+if None in (title_elem, company_elem, location_elem):
+        continue
+    print(title_elem.text.strip())
+    print(company_elem.text.strip())
+    print(location_elem.text.strip())
+    print()
