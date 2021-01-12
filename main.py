@@ -21,3 +21,4 @@ if None in (title_elem, company_elem, location_elem):
     print(company_elem.text.strip())
     print(location_elem.text.strip())
     print()
+python_jobs = results.find_all('h2', string='Python Developer')
