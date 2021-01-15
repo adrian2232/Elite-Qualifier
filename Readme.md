@@ -1,9 +1,19 @@
-Elite qualifier Project
-webscraping
+######Elite qualifier Project
 
-background
 
+##table of contents
+Background
 install
-
 usage
 
+
+##Background
+this lets us see the inner workings
+
+
+##install
+uses python
+
+
+##usage 
+click run read code
