@@ -1,21 +1,29 @@
 #Elite qualifier Project
 
+Web scraping
 
-##table of contents
-Background
-install
-usage
+# Table of Contents
+
+- [Background](#background)
+
+- [Install](#install)
+
+- [Usage](#usage)
 
 
-Background
+##Background
+
 this lets us see the inner workings
 
 
 ##install
+
 uses python
 
 
 ##usage 
+
+
 click run read code!
 
 ## Test Plan
